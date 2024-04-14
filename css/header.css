@@ -1,5 +1,5 @@
 header {
-    background-color: #00b1ff;
+    background-color:transparent;
     padding: 10px;
 
     display: flex;
@@ -8,7 +8,8 @@ header {
 }
 
 header h1 {
-    font-size: 2.8em;
+    color:  #4169E1;
+    font-size: 1.4em;
     font-weight: 200;
     cursor: pointer;
 }
@@ -17,7 +18,7 @@ header nav {
     width: 50px;
     height: 50px;
 
-    background-color: #27c0ff;
+    background-color: #4169E1;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -34,5 +35,5 @@ header nav:hover {
 }
 
 .fa-solid {
-    color: #add3ff;
+    color: white;
 }

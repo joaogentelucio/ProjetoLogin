@@ -7,7 +7,7 @@ body {
     width: 100%;
     height: 100vh;
 
-    background-color: #ffffff;
+    background-color: #0F0F0F;
     color: white;
 
     display: flex;
@@ -32,7 +32,7 @@ nav {
     height: 150px;
     margin-top: 20%;
 
-    background-color: #27c0ff;
+    background-color: #4169E1;
     border-radius: 100px;
     cursor: pointer;
 
@@ -42,7 +42,7 @@ nav {
 }
 
 .fa-solid {
-    color: #add3ff;
+    color: white;
 }
 
 div button{
@@ -50,8 +50,8 @@ div button{
     height: 50px;
     margin-bottom: 20px;
 
-    background-color: #27c0ff;
-    color: #fff;
+    background-color: white;
+    color: #0F0F0F;
     border: none;
     border-radius: 25px;
     cursor: pointer;
