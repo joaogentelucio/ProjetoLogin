@@ -1,5 +1,5 @@
 header {
-    background-color:transparent;
+    background-color: transparent;
     padding: 10px;
 
     display: flex;
@@ -7,22 +7,27 @@ header {
     justify-content: space-between;
 }
 
-header h1 {
-    color:  #4169E1;
-    font-size: 1.4em;
-    font-weight: 200;
+.div-img {
+    padding: 20px;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+    margin: 0 8px;
     cursor: pointer;
 }
 
-header nav {
-    width: 50px;
-    height: 50px;
 
-    background-color: #4169E1;
-    border: none;
+header nav {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    margin: 0 8px;
+    border: 1px #00e0ff solid;
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.s ease;
 
     display: flex;
     align-items: center;
@@ -35,5 +40,5 @@ header nav:hover {
 }
 
 .fa-solid {
-    color: white;
+    color: #0F0F0F;
 }
